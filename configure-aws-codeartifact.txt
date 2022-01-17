@@ -7,6 +7,5 @@ insert secret id - your aws secret id
 insert region - ap-southeast-1
 defaut output - json
 
-
-
-
+// Cd to project directory
+export CODEARTIFACT_AUTH_TOKEN=$(aws codeartifact get-authorization-token --domain dormeo --query authorizationToken --output text)
