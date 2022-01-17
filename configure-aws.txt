@@ -1,0 +1,12 @@
+// Run command
+aws configure
+
+// Parameter
+insert aws access key id - your aws access key
+insert secret id - your aws secret id
+insert region - ap-southeast-1
+defaut output - json
+
+
+
+
