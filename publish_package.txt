@@ -1,0 +1,25 @@
+Auth
+npm run ca-login
+
+Before publish, make sure name same with repo in aws. For example
+"name": "@dm/bigfish"
+
+Check path of index.js in either src/ main
+"main": "src/index.js",
+"module": "src/index.esm.js",
+"types": "src/index.d.ts",
+
+Every time we make changes in directory either installing new package or adding new component we need to increment the version, for example
+"version": "0.0.3" to "0.0.4"
+
+Then, publish
+npm publish
+
+
+To use package,
+we need to install or add the package, for example
+npm install @dm/bigfish
+yarn add @dm/bigfish
+
+import the component using
+import Component from "@dm/bigfish"
